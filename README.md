@@ -230,4 +230,4 @@ curl -X POST http://localhost:3001/publish   -H "Content-Type: application/json"
 
 ## 📜 License
 
-This project is distributed under the terms of the MIT License (or your chosen license).
+This project is distributed under the terms of the MIT License.
