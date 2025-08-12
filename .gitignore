@@ -1,0 +1,49 @@
+# Binários de build
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Diretório de saída padrão (caso esteja usando build local)
+bin/
+build/
+dist/
+
+# Diretório de dependências (caso use vendoring)
+vendor/
+
+# Módulos e cache do Go
+/go.sum
+/go.work.sum
+/go.work
+
+# Cache do Go (geralmente não está no projeto, mas por precaução)
+*.cache/
+*.tmp/
+
+# Arquivos temporários e de sistema
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+# IDEs/editores
+.vscode/
+.idea/
+*.iml
+
+# Test output
+coverage.out
+cover.out
+*.cov
+*.prof
+
+# Configs locais
+.env
+.env.*
